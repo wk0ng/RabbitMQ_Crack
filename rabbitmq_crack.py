@@ -58,15 +58,6 @@ def Crack(target):
 				exit()
 
 
-def help():
-	print'''Help:
-\tuseage: python rabbitmq_crack.py http://www.example:15672/'''
-	exit()
-
-def loadParement():
-    return True
-
-
 if __name__ == '__main__':
 	global userFile
 	global passFile
